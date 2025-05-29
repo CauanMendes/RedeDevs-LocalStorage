@@ -31,7 +31,7 @@ if (usuario === null) {
     addNews.style.display = "none";
 }
 else if (usuario.admin) {
-    addNews.style.display = '';
+    addNews.style.display = 'block';
 } else {
     addNews.style.display = 'none';
 }

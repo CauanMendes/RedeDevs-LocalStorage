@@ -1,6 +1,11 @@
+body {
+    user-select: none;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+}
+
 .cm-body {
     width: 100%;
-    user-select: none;
     font-family: Arial, sans-serif;
     width: 100%;
     height: 100%;
